@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{F7DA32C9-9B8E-4998-84EE-B017E27CE230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PmLove.Download", "PmLove.Download\PmLove.Download.csproj", "{0DE8F20B-E0A3-4135-ADB4-CD38C644292B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DA32C9-9B8E-4998-84EE-B017E27CE230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DA32C9-9B8E-4998-84EE-B017E27CE230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DA32C9-9B8E-4998-84EE-B017E27CE230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DA32C9-9B8E-4998-84EE-B017E27CE230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE8F20B-E0A3-4135-ADB4-CD38C644292B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE8F20B-E0A3-4135-ADB4-CD38C644292B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE8F20B-E0A3-4135-ADB4-CD38C644292B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE8F20B-E0A3-4135-ADB4-CD38C644292B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
